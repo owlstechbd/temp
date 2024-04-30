@@ -1,0 +1,109 @@
+@media screen and (max-width: 977px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .foter-container{
+        flex-direction: column;
+    }
+    .mobile-logo{
+       
+    }
+    .mobile-menu{
+        width: 100%;
+        padding: 15px 20px;
+        border-bottom: 1px #93939324 solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu-iteam{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-menu-iteam ul{
+        display: flex;
+        align-items: center;
+        
+        margin: 0;
+        padding: 0;
+        padding:2px;
+        border-radius: 20px;
+        background: #00DC70;
+    }
+    .mobile-menu-iteam ul li {
+        padding: 10px;
+    }
+    .mobile-menu-iteam img{
+        margin-right: 10px;
+    }
+    .mobile-menu-iteam ul li  a{
+        font-size: 10px;
+        color: #000;
+    }
+    .btn-mobile{
+        background: #000;
+        border-radius: 20px;
+       
+    }
+    .btn-mobile a{
+       
+        color: #fff!important;
+    }
+    .pro-iteam{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pro-box {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .hero-bottom {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero-img img {
+        width: 90%;
+    }
+    .pro-box h3{
+        font-size: 16px;
+    }
+    .pro-box p{
+        font-size: 14px;
+    }
+    .pro-box:last-child{
+        padding-top: 20px;
+        border-top: 1px #93939324 solid;
+    }
+    .gem h2 {
+        font-size: 24px;
+       
+    }
+    .coming-project{
+        padding: 50px 0 100px;
+    }
+    .foter-container{
+        text-align: center;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-menu li{
+        margin: 10px 25px;
+    }
+    .footer-menu li a{
+        margin-right: 0;
+    }
+    .text-footer{
+        font-size: 10px;
+        color: #F4F4F4;
+    }
+}
+
